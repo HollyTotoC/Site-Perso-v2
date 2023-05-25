@@ -1,0 +1,32 @@
+#experiences {
+    background-color: $gray-bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: $text-size;
+    padding-top: $mg-container;
+    padding-bottom: $mg-container;
+    & .title {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        flex-wrap: wrap;
+        height: 70rem;
+        gap: 3rem;
+        & .exp {
+            flex: 1 1;
+            width: 50%;
+            &_title {
+                color: $sub-title-color;
+                line-height: 1.4;
+            }
+        }
+    }
+}

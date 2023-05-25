@@ -1,0 +1,46 @@
+#contact {
+    background-color: $gray-bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: $text-size;
+    padding-top: $mg-container;
+    padding-bottom: $mg-container;
+}
+
+.contact {
+    &_title {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+    &_subtitle {
+        color: $text-color;
+        font-size: $headings-size;
+    }
+    &_text {
+        margin-bottom: 6rem;
+    }
+    &_container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        & .social {
+            width: 30rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1rem;
+            &_picto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 4rem;
+                line-height: 1.2;
+                border-radius: 100%;
+                padding: 1rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}

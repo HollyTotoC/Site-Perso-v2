@@ -3,11 +3,18 @@ import ProjectBox from "./ProjectBox";
 function Portfolio() {
     return (
         <>
-            <section>
-                <h2>Portfolio</h2>
-                <p>blabla</p>
+            <section id="portfolio">
+                <h2 className="portfolio_title">Portfolio</h2>
+                <h3 className="portfolio_subtitle">
+                    Chaque projet est une nouvelle aventure dans le monde du
+                    développement web 🚀.
+                </h3>
+                <p className="portfolio_text">
+                    Voici ceux que j'ai eu le plaisir d'explorer ! J'espère
+                    pouvoir ajouter le vôtre à mon parcours.
+                </p>
 
-                <div>
+                <div className="portfolio_container">
                     <ProjectBox />
                 </div>
             </section>

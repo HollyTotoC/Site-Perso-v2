@@ -1,17 +1,19 @@
 .hero {
-    margin-top: 15rem;
     display: flex;
     flex-direction: column;
     gap: 10rem;
+    padding-top: $mg-container;
+    padding-bottom: $mg-container;
 }
 
 .content {
     display: flex;
+    align-items: center;
     gap: 2rem;
     &_picture {
         object-fit: contain;
         border-radius: 5%;
-        height: 30rem;
+        height: 22rem;
         overflow: hidden;
         aspect-ratio: 1/1.3;
         display: flex;
@@ -31,7 +33,7 @@
         & h1 {
             font-size: 6rem;
             font-weight: 700;
-            line-height: 70%;
+            line-height: 100%;
         }
         & p {
             font-size: $text-size;
@@ -50,7 +52,7 @@
     & p {
         font-size: $text-size;
         font-weight: 600;
-        padding: 0.5rem 2rem;
+        padding: 1rem 2rem;
         border-right: 0.3rem solid black;
     }
     & div {

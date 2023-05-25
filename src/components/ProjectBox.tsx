@@ -1,15 +1,17 @@
+import pictureTest from "../assets/images/acceuilfull.png";
+
 function ProjectBox() {
     return (
-        <article>
-            <div>
+        <article className="projectbox">
+            <div className="projectbox_picture">
                 <a href="">
-                    <img src="" alt="" />
+                    <img src={pictureTest} alt="" />
                 </a>
             </div>
-            <div>
-                <h3>Projet Name</h3>
-                <p>Description</p>
-                <div>
+            <div className="projectbox_container">
+                <h3 className="title">Projet Name</h3>
+                <p className="text">Description</p>
+                <div className="buttons">
                     <button>View/Source Code</button>
                     <button>More</button>
                 </div>

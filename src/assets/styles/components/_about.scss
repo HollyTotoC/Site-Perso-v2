@@ -1,0 +1,48 @@
+#about {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: $mg-container;
+    padding-bottom: $mg-container;
+}
+
+.about {
+    &_picture {
+        object-fit: contain;
+        border-radius: 3%;
+        height: 35rem;
+        width: 35rem;
+        overflow: hidden;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+            height: 100%;
+        }
+    }
+    &_container {
+        width: 70rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        font-size: $text-size;
+        & .title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+        & .subtitle {
+            font-size: $headings-size;
+            line-height: 1.4;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        & .text {
+            font-size: $text-size;
+            line-height: 1.4;
+        }
+    }
+}

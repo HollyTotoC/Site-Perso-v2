@@ -1,0 +1,65 @@
+.projectbox {
+    width: 90rem;
+    border-radius: 1.7rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    &_picture {
+        position: relative;
+        object-fit: contain;
+        border-radius: 3%;
+        height: 35rem;
+        width: 35rem;
+        overflow: hidden;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        border-radius: 1.7rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        & img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            transition: top 4s;
+            &:hover {
+                top: -160%;
+                transition: top 4s;
+            }
+        }
+    }
+    &_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 5rem;
+        & .title {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 100%;
+        }
+        & .text {
+            font-size: $text-size;
+        }
+        & .buttons {
+            display: flex;
+            gap: 2rem;
+            & button {
+                width: 20rem;
+                background-color: white;
+                padding: 1rem 2rem 1rem 2rem;
+                border: 0.3rem solid black;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}

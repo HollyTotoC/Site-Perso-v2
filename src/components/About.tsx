@@ -1,16 +1,18 @@
+import midOffice from "../assets/images/midOffice.png";
+
 function About() {
     return (
-        <section>
-            <div>
-                <img src="" alt="" />
+        <section id="about" className="about">
+            <div className="about_picture">
+                <img src={midOffice} alt="" />
             </div>
-            <div>
-                <h2>A Propos</h2>
-                <p>
+            <div className="about_container">
+                <h2 className="title">A Propos</h2>
+                <p className="subtitle">
                     Allier programmation et passion pour créer des expériences
                     web uniques. 👨‍💻
                 </p>
-                <p>
+                <p className="text">
                     J’ai une double formation. Développeur web passionné et
                     créatif et diplômé en cinéma avec une pratique de 10 ans
                     comme réalisateur/vidéaste, monteur et motion designer. Fort

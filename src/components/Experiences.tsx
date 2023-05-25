@@ -1,11 +1,11 @@
 function Experiences() {
     return (
-        <section>
-            <h2>Experiences</h2>
-            <div>
-                <article>
-                    <h3>2023</h3>
-                    <p>
+        <section id="experiences">
+            <h2 className="title">Experiences</h2>
+            <div className="container">
+                <article className="exp">
+                    <h3 className="exp_title">2023</h3>
+                    <p className="exp_text">
                         Actuellement, je m'épanouis dans le monde du freelance,
                         renforçant et élargissant mes compétences en
                         développement web. En tant que développeur indépendant,
@@ -20,9 +20,9 @@ function Experiences() {
                         technologies actuelles et d'en découvrir de nouvelles.
                     </p>
                 </article>
-                <article>
-                    <h3>2022</h3>
-                    <p>
+                <article className="exp">
+                    <h3 className="exp_title">2022</h3>
+                    <p className="exp_text">
                         Formation en ligne de développement web couvrant les
                         fondamentaux de la programmation web et de la conception
                         de sites web. Au cours de la formation, j'ai appris à
@@ -31,9 +31,9 @@ function Experiences() {
                         pour créer des applications web dynamiques.
                     </p>
                 </article>
-                <article>
-                    <h3>2022</h3>
-                    <p>
+                <article className="exp">
+                    <h3 className="exp_title">2022</h3>
+                    <p className="exp_text">
                         Alternance en entreprise de développement web où j'ai pu
                         acquérir une expérience professionnelle en utilisant les
                         compétences acquises lors de ma formation. J'ai
@@ -42,9 +42,9 @@ function Experiences() {
                         web robustes et performantes.
                     </p>
                 </article>
-                <article>
-                    <h3>2020 - 2023</h3>
-                    <p>
+                <article className="exp">
+                    <h3 className="exp_title">2020 - 2023</h3>
+                    <p className="exp_text">
                         En tant que consultant en communication digitale, j'ai
                         aidé mes clients à développer leur présence en ligne et
                         à atteindre leur public cible. J'ai travaillé avec eux
@@ -55,9 +55,9 @@ function Experiences() {
                         leurs objectifs.
                     </p>
                 </article>
-                <article>
-                    <h3>2013 - 2022</h3>
-                    <p>
+                <article className="exp">
+                    <h3 className="exp_title">2013 - 2022</h3>
+                    <p className="exp_text">
                         J'ai utilisé mes compétences en motion design et en
                         montage pour aider mes clients à créer des vidéos qui
                         communiquent efficacement leur message. J'ai travaillé
@@ -67,9 +67,9 @@ function Experiences() {
                         conception à la livraison finale.
                     </p>
                 </article>
-                <article>
-                    <h3>2010 - 2022</h3>
-                    <p>
+                <article className="exp">
+                    <h3 className="exp_title">2010 - 2022</h3>
+                    <p className="exp_text">
                         En tant que réalisateur et vidéaste indépendant, j'ai
                         géré des projets de A à Z, de la prise de contact avec
                         le client à la livraison finale. J'ai travaillé sur une

@@ -12,7 +12,7 @@ import bootstrap from "../assets/images/logos/bootstrap.svg";
 function Hero() {
     return (
         <>
-            <section className="hero">
+            <section className="hero" id="home">
                 <div className="content">
                     <div className="content_picture">
                         <img
@@ -24,9 +24,13 @@ function Hero() {
                         <p>
                             <i>je suis disponible</i> <span>👋</span>
                         </p>
-                        <h1>Toto Certa</h1>
+                        <h1>
+                            Toto
+                            <br />
+                            Certa
+                        </h1>
                         <p>
-                            est développeur front avec un expérience de motion
+                            développeur front avec un expérience de motion
                             designer, installé à Paris. 📍
                         </p>
                         <div>
