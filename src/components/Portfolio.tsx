@@ -17,7 +17,7 @@ function Portfolio() {
 
                 <div className="portfolio_container">
                     {dataPortfolio.map((project, index) => (
-                        <ProjectBox project={project} />
+                        <ProjectBox key={index} project={project} />
                     ))}
                 </div>
             </section>
