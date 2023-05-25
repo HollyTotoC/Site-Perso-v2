@@ -8,6 +8,9 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    &:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
     &_picture {
         position: relative;
         object-fit: contain;

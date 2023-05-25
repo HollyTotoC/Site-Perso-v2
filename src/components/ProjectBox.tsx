@@ -1,18 +1,38 @@
 import pictureTest from "../assets/images/acceuilfull.png";
 
-function ProjectBox() {
+type Project = {
+    title: string;
+    desc: string;
+    descfull: string;
+    mainPicture: string;
+    pictures: string[];
+    link: string;
+    git: string;
+    client: string;
+    tags: string[];
+};
+
+interface ProjectProps {
+    project: Project;
+}
+
+function ProjectBox({ project }: ProjectProps) {
     return (
         <article className="projectbox">
             <div className="projectbox_picture">
                 <a href="">
-                    <img src={pictureTest} alt="" />
+                    <img src={project.mainPicture} alt="" />
                 </a>
             </div>
             <div className="projectbox_container">
-                <h3 className="title">Projet Name</h3>
-                <p className="text">Description</p>
+                <h3 className="title">{project.title}</h3>
+                <p className="text">{project.desc}</p>
                 <div className="buttons">
-                    <button>View/Source Code</button>
+                    <a href={project.link === "" ? project.git : project.link}>
+                        <button>
+                            {project.link === "" ? "Githib" : "View"}
+                        </button>
+                    </a>
                     <button>More</button>
                 </div>
             </div>

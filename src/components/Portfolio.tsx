@@ -1,4 +1,5 @@
 import ProjectBox from "./ProjectBox";
+import dataPortfolio from "../assets/portfolio.json";
 
 function Portfolio() {
     return (
@@ -15,7 +16,9 @@ function Portfolio() {
                 </p>
 
                 <div className="portfolio_container">
-                    <ProjectBox />
+                    {dataPortfolio.map((project, index) => (
+                        <ProjectBox project={project} i={index} />
+                    ))}
                 </div>
             </section>
         </>
