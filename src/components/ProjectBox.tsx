@@ -1,5 +1,3 @@
-import pictureTest from "../assets/images/acceuilfull.png";
-
 type Project = {
     title: string;
     desc: string;
