@@ -1,0 +1,32 @@
+
+//Base
+@use "./base/colors" as *;
+@use "./base/typo" as *;
+
+//Components
+@import "./components/header";
+@import "./components/hero";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: $background-color;
+    font-family: $title-font;
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit; /* no underline */
+  }
