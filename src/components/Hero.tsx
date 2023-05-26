@@ -1,4 +1,4 @@
-import profilePicture from "../assets/images/toto.jpg";
+import profilePicture from "../assets/images/toto.webp";
 
 //import logos
 import html5 from "../assets/images/logos/html5.svg";

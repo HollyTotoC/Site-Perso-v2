@@ -1,4 +1,4 @@
-import midOffice from "../assets/images/midOffice.png";
+import midOffice from "../assets/images/midOffice.webp";
 
 function About() {
     return (
