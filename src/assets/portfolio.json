@@ -1,14 +1,11 @@
-[
-    {
+[    {
         "title": "Bioseine ⚕️",
         "desc": "Site front et back office pour laboratoire d'analyse médicale 2.0",
         "descfull": "Le projet Bioseine est un site front et back office pour laboratoire d'analyse médicale 2.0. Dans l'équipe de IMI, je suis intervenu sur la mise en page de certaines parties du site (booking et tuto) et développement de la partie prise de photo via smartphone.",
-        "mainPicture": "https://i.imgur.com/YPzuFjj.png",
+        "mainPicture": "./src/assets/images/screenshot/bioseine1.webp",
         "pictures": [
-            "https://i.imgur.com/YPzuFjj.png",
-            "https://i.imgur.com/BXNi8ys.png",
-            "https://i.imgur.com/mWrz0H7.png",
-            "https://i.imgur.com/iyxkZFa.png"
+            "./src/assets/images/screenshot/bioseine1.webp",
+            "./src/assets/images/screenshot/bioseine1.webp"
         ],
         "link": "https://labo-bioseine.fr/",
         "git": "https://github.com/nicolasdelourme/bioseineFront",
@@ -22,95 +19,93 @@
             "Frontend",
             "Backend"
         ],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "-62%"
     },
     {
         "title": "Kasa 🏠🧑‍🎓",
         "desc": "Adaptaion d'une maquette en site web responsive React",
         "descfull": "Le projet Kasa est une application React développé dans le cadre de ma formation chez Openclassroom. Il s'agit d'une adaptation d'une maquette Figma en site web responsive. J'ai utilisé React et SCSS pour créer une application web qui fonctionne sur tous les appareils.",
-        "mainPicture": "https://i.imgur.com/5Z3Z3Zo.png",
+        "mainPicture": "./src/assets/images/screenshot/kasa1.webp",
         "pictures": [
-            "https://i.imgur.com/a5o2nvE.png",
-            "https://i.imgur.com/1bf2Eis.png",
-            "https://i.imgur.com/ituhlX4.png",
-            "https://i.imgur.com/MNy19Re.png"
+            "./src/assets/images/screenshot/kasa1.webp",
+            "./src/assets/images/screenshot/kasa2.webp",
+            "./src/assets/images/screenshot/kasa3.webp",
+            "./src/assets/images/screenshot/kasa4.webp"
         ],
         "link": "https://opcr7.netlify.app/",
         "git": "https://github.com/HollyTotoC/OCR_P7",
         "client": "Openclassroom",
         "tags": ["React", "SCSS", "Frontend"],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "-47%"
     },
     {
         "title": "Piiquante 🌶️🧑‍🎓",
         "desc": "API pour un site de revue de sauces piquantes",
         "descfull": "Le projet Piiquante, réalisé dans le cadre de ma formation OpenClassroom, est une API pour un site de revue de sauces piquantes. J'ai utilisé Node.js, Express et MongoDB pour créer une API qui permet aux utilisateurs de créer, modifier et supprimer des sauces. J'ai également utilisé Mongoose pour créer un schéma de données et valider les entrées utilisateur.",
-        "mainPicture": "https://i.imgur.com/6s3ljpO.png",
+        "mainPicture": "./src/assets/images/screenshot/piiquante1.webp",
         "pictures": [
-            "https://i.imgur.com/HZoBgdG.png",
-            "https://i.imgur.com/AFlC4lA.png",
-            "https://i.imgur.com/wRKeDvu.png",
-            "https://i.imgur.com/g0x9ShW.png",
-            "https://i.imgur.com/kdC1ePh.png",
-            "https://i.imgur.com/hKVgron.png"
+            "./src/assets/images/screenshot/piiquante1.webp",
+            "./src/assets/images/screenshot/piiquante2.webp",
+            "./src/assets/images/screenshot/piiquante3.webp",
+            "./src/assets/images/screenshot/piiquante4.webp"
         ],
         "link": "",
         "git": "https://github.com/HollyTotoC/OCR_P6",
         "client": "Openclassroom",
         "tags": ["Node.js", "Express", "MongoDB", "back"],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "0%%"
     },
     {
         "title": "Kanap 🛋️🧑‍🎓",
         "desc": "Boutique de canapés en ligne",
         "descfull": "Le projet Kanap, réalisé dans le cadre de ma formation Openclassroom, est un site de e-commerce pour une boutique de canapés en ligne. Avec certaines spécifications de comportement pour la future API, j'ai mis en place une vitrine de produits, un panier d'achat et un formulaire de commande. J'ai utilisé JavaScript pour créer une application web qui fonctionne sur tous les appareils.",
-        "mainPicture": "https://i.imgur.com/6s3ljpO.png",
+        "mainPicture": "./src/assets/images/screenshot/kanap1.webp",
         "pictures": [
-            "https://i.imgur.com/6s3ljpO.png",
-            "https://i.imgur.com/E0jPNLs.png",
-            "https://i.imgur.com/IB0bpEw.png",
-            "https://i.imgur.com/uc5BWtF.png",
-            "https://i.imgur.com/aH19zQo.png",
-            "https://i.imgur.com/fm8U7ci.png"
+            "./src/assets/images/screenshot/kanap1.webp",
+            "./src/assets/images/screenshot/kanap2.webp",
+            "./src/assets/images/screenshot/kanap3.webp"
         ],
         "link": "",
         "git": "https://github.com/HollyTotoC/OCR_P5",
         "client": "Openclassroom",
         "tags": ["Node", "JS", "SCSS", "Frontend", "CRUD"],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "-36%"
     },
     {
         "title": "OhMyFood 🍽️🧑‍🎓",
         "desc": "Mise en place d'une maquette pour Ohmyfood, une entreprise de commande de repas en ligne.",
         "descfull": "Le projet OhMyFood, réalisé dans le cadre de ma formation Openclassroom, est une mise en place d'une maquette pour Ohmyfood, une start-up de commande de repas en ligne. J'ai utilisé HTML et SCSS pour créer une application web qui fonctionne sur tous les appareils.",
-        "mainPicture": "https://i.imgur.com/DeSu09G.png",
+        "mainPicture": "./src/assets/images/screenshot/omf1.webp",
         "pictures": [
-            "https://i.imgur.com/DeSu09G.png",
-            "https://i.imgur.com/hEPcUDF.png",
-            "https://i.imgur.com/r7UobPN.png",
-            "https://i.imgur.com/LZpeL35.png"
+            "./src/assets/images/screenshot/omf1.webp",
+            "./src/assets/images/screenshot/omf2.webp",
+            "./src/assets/images/screenshot/omf3.webp"
         ],
-        "link": "https://github.com/HollyTotoC/hollytotoc.github.io",
+        "link": "https://hollytotoc.github.io/index.html",
         "git": "https://github.com/HollyTotoC/hollytotoc.github.io",
         "client": "Openclassroom",
         "tags": ["HTML", "SCSS", "front"],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "0%"
     },
     {
         "title": "La Panthère 🐈‍⬛🧑‍🎓",
         "desc": "Optimisation d'un site web existant pour le rendre plus accessible.",
         "descfull": "Le projet La Chouette Agence, réalisé dans le cadre de ma formation Openclassroom, est une optimisation d'un site web existant pour le rendre plus accessible. A partir d'un site web existant, un audit et une mise à jour du site devais être fait pour une meilleur SEO.",
-        "mainPicture": "https://i.imgur.com/q9sZlCi.png",
+        "mainPicture": "./src/assets/images/screenshot/panthere1.webp",
         "pictures": [
-            "https://i.imgur.com/q9sZlCi.png",
-            "https://i.imgur.com/qv4h20K.png",
-            "https://i.imgur.com/9inO5wf.png",
-            "https://i.imgur.com/xQAOWEQ.png"
+            "./src/assets/images/screenshot/panthere1.webp",
+            "./src/assets/images/screenshot/panthere2.webp"
         ],
         "link": "",
         "git": "https://github.com/HollyTotoC/OCR_P4",
         "client": "Openclassroom",
         "tags": ["HTML", "SCSS", "front", "SEO"],
-        "cat": "Web"
+        "cat": "Web",
+        "scrollY": "-64s%"
     }
 ]

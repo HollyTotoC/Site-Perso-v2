@@ -13,28 +13,27 @@
     }
     &_picture {
         position: relative;
-        object-fit: contain;
         border-radius: 3%;
-        height: 35rem;
-        width: 35rem;
-        overflow: hidden;
         aspect-ratio: 1/1;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 1rem;
-        border-radius: 1.7rem;
+
+        background-color: hsla(0, 0%, 46%, 0.2);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: auto;
+        overflow: hidden;
+        width: 53rem;
+
         & img {
             position: absolute;
-            left: 0;
             top: 0;
+            left: 0;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+            height: auto;
             width: 100%;
-            transition: top 4s;
-            &:hover {
-                top: -160%;
-                transition: top 4s;
-            }
         }
     }
     &_container {

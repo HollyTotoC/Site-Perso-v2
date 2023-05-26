@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 type Project = {
     title: string;
     desc: string;
@@ -8,6 +10,7 @@ type Project = {
     git: string;
     client: string;
     tags: string[];
+    scrollY: string;
 };
 
 interface ProjectProps {
@@ -15,11 +18,23 @@ interface ProjectProps {
 }
 
 function ProjectBox({ project }: ProjectProps) {
+    const [scroll, setScroll] = useState(false);
     return (
         <article className="projectbox">
             <div className="projectbox_picture">
                 <a href="">
-                    <img src={project.mainPicture} alt="" />
+                    <img
+                        src={project.mainPicture}
+                        alt="website"
+                        style={{
+                            transform: scroll
+                                ? `translateY(${project.scrollY})`
+                                : "translateY(0%)",
+                            transition: "transform 10s ease-in-out",
+                        }}
+                        onMouseEnter={() => setScroll(true)}
+                        onMouseLeave={() => setScroll(false)}
+                    />
                 </a>
             </div>
             <div className="projectbox_container">
