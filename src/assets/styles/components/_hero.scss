@@ -8,12 +8,12 @@
 
 .content {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     &_picture {
         object-fit: contain;
         border-radius: 5%;
-        height: 22rem;
+        width: 23rem;
         overflow: hidden;
         aspect-ratio: 1/1.3;
         display: flex;
@@ -26,12 +26,11 @@
     &_info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: left;
+        justify-content: space-between;
         gap: 1rem;
         width: 40rem;
         & h1 {
-            font-size: 6rem;
+            font-size: 5rem;
             font-weight: 700;
             line-height: 100%;
         }
@@ -60,6 +59,23 @@
             display: flex;
             gap: 2rem;
             list-style-type: none;
+        }
+    }
+}
+
+.link {
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+        & .social {
+            background-color: black;
+            padding: 1.1rem;
+            border-radius: 100%;
+            & img {
+                height: 2.5rem;
+            }
         }
     }
 }

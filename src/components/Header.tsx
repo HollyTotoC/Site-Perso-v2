@@ -15,19 +15,29 @@ function Header() {
                 <nav>
                     <ul className="menu">
                         <li>
-                            <a href="#home">Accueil</a>
+                            <a href="#home" aria-label="">
+                                Accueil
+                            </a>
                         </li>
                         <li>
-                            <a href="#about">A propos</a>
+                            <a href="#about" aria-label="">
+                                A propos
+                            </a>
                         </li>
                         <li>
-                            <a href="#experiences">Expériences</a>
+                            <a href="#experiences" aria-label="">
+                                Expériences
+                            </a>
                         </li>
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="#portfolio" aria-label="">
+                                Portfolio
+                            </a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact" aria-label="">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </nav>

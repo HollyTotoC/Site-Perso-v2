@@ -4,11 +4,15 @@ import linkedin from "../assets/images/logos/linkedin.svg";
 function Footer() {
     return (
         <footer id="footer">
-            <h5 className="footer_title">
+            <h2 className="footer_title">
                 Copiright © {new Date().getFullYear()} - Tout droits réservés.
-            </h5>
+            </h2>
             <div className="footer_container">
-                <a href="https://github.com/HollyTotoC" className="social">
+                <a
+                    href="https://github.com/HollyTotoC"
+                    aria-label=""
+                    className="social"
+                >
                     <img src={github} alt="" />
                 </a>
                 <a

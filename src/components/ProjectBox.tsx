@@ -22,7 +22,10 @@ function ProjectBox({ project }: ProjectProps) {
     return (
         <article className="projectbox">
             <div className="projectbox_picture">
-                <a href="">
+                <a
+                    href={project.link === "" ? project.git : project.link}
+                    aria-label=""
+                >
                     <img
                         src={project.mainPicture}
                         alt="website"
@@ -41,7 +44,10 @@ function ProjectBox({ project }: ProjectProps) {
                 <h3 className="title">{project.title}</h3>
                 <p className="text">{project.desc}</p>
                 <div className="buttons">
-                    <a href={project.link === "" ? project.git : project.link}>
+                    <a
+                        href={project.link === "" ? project.git : project.link}
+                        aria-label=""
+                    >
                         <button>
                             {project.link === "" ? "Githib" : "View"}
                         </button>

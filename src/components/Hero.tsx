@@ -1,4 +1,6 @@
 import profilePicture from "../assets/images/toto.webp";
+import github from "../assets/images/logos/github.svg";
+import linkedin from "../assets/images/logos/linkedin.svg";
 
 //import logos
 import html5 from "../assets/images/logos/html5.svg";
@@ -33,12 +35,19 @@ function Hero() {
                             développeur front avec un expérience de motion
                             designer, installé à Paris. 📍
                         </p>
-                        <div>
-                            <a href="">
-                                <i></i>
+                        <div className="link_container">
+                            <a
+                                href="https://github.com/HollyTotoC"
+                                aria-label=""
+                                className="social"
+                            >
+                                <img src={github} alt="" />
                             </a>
-                            <a href="">
-                                <i></i>
+                            <a
+                                href="https://www.linkedin.com/in/toto-certa/"
+                                className="social"
+                            >
+                                <img src={linkedin} alt="" />
                             </a>
                         </div>
                     </div>

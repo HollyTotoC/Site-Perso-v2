@@ -28,7 +28,9 @@ function Contact() {
                     </div>
                     <div className="social_text">
                         <h3>Mail</h3>
-                        <a href="">totoc.contact@gmail.com</a>
+                        <a href="mailto:totoc.contact@gmail.com" aria-label="">
+                            totoc.contact@gmail.com
+                        </a>
                     </div>
                 </div>
             </div>
