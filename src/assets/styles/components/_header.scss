@@ -1,25 +1,97 @@
 header {
-    z-index: 100;
     position: fixed;
+    z-index: 100;
     width: 100%;
     height: 5rem;
     left: 0;
     top: 0;
-    padding: 0 10rem 0 10rem;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     & .logo {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
 
-    & nav ul {
+    & .menu {
+        font-size: 1.5rem;
         display: flex;
         text-decoration: none;
         list-style-type: none;
         gap: 1.5rem;
+
+        & img {
+            height: 2rem;
+        }
+        & > li > a {
+            display: none;
+            @include media-query(large) {
+                display: block;
+            }
+        }
+    }
+
+    & .menu-button {
+        display: block;
+        @include media-query(large) {
+            display: none;
+            border: 1px solid black;
+        }
+        & img {
+            height: 4rem;
+        }
+    }
+
+    & .mobile-nav {
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 75;
+
+        transition: all 0.3s ease-in-out;
+
+        & span {
+            cursor: pointer;
+            font-size: 3.3rem;
+            position: absolute;
+            right: 2rem;
+            top: 1rem;
+            & img {
+                height: 4rem;
+            }
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            font-size: 2.3rem;
+            gap: 4rem;
+            list-style: none;
+            &_li {
+                list-style-type: none;
+                color: #000;
+                font-weight: 500;
+            }
+        }
+
+        &.open {
+            left: 0 !important;
+            border: 1px solid green;
+        }
+        &.close {
+            left: -100% !important;
+            border: 1px solid red;
+        }
+
+        @include media-query(large) {
+            display: none;
+        }
     }
 }

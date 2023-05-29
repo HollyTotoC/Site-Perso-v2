@@ -1,4 +1,14 @@
+import { useState } from "react";
+import menuLogo from "../assets/images/menu.svg";
+import menuClose from "../assets/images/close.svg";
+
 function Header() {
+    const [menu, setMenu] = useState(false);
+
+    const menuDisplay = () => {
+        setMenu(!menu);
+    };
+
     const pageUp = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
@@ -39,8 +49,49 @@ function Header() {
                                 Contact
                             </a>
                         </li>
+                        <li
+                            className="menu-button"
+                            onClick={() => menuDisplay()}
+                        >
+                            <img src={menuLogo} alt="bouton menu" />
+                        </li>
                     </ul>
                 </nav>
+
+                {/* MOBILE NAV */}
+                <div className={`mobile-nav ${menu ? "open" : "close"}`}>
+                    <span onClick={() => menuDisplay()}>
+                        <img src={menuClose} alt="" />
+                    </span>
+
+                    <ul className="menu">
+                        <li onClick={() => menuDisplay()}>
+                            <a href="#home" aria-label="">
+                                Accueil
+                            </a>
+                        </li>
+                        <li onClick={() => menuDisplay()}>
+                            <a href="#about" aria-label="">
+                                A propos
+                            </a>
+                        </li>
+                        <li onClick={() => menuDisplay()}>
+                            <a href="#experiences" aria-label="">
+                                Expériences
+                            </a>
+                        </li>
+                        <li onClick={() => menuDisplay()}>
+                            <a href="#portfolio" aria-label="">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li onClick={() => menuDisplay()}>
+                            <a href="#contact" aria-label="">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </header>
         </>
     );

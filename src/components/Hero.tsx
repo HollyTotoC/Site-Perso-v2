@@ -26,13 +26,9 @@ function Hero() {
                         <p>
                             <i>je suis disponible</i> <span>👋</span>
                         </p>
-                        <h1>
-                            Toto
-                            <br />
-                            Certa
-                        </h1>
+                        <h1>Toto Certa</h1>
                         <p>
-                            développeur front avec un expérience de motion
+                            Développeur front avec un expérience de motion
                             designer, installé à Paris. 📍
                         </p>
                         <div className="link_container">

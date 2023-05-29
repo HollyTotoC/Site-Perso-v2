@@ -2,23 +2,41 @@
     display: flex;
     flex-direction: column;
     gap: 10rem;
-    padding-top: $mg-container;
-    padding-bottom: $mg-container;
+    padding-top: $mg-container-sm;
+    padding-bottom: $mg-container-sm;
+    text-align: center;
+    @include media-query(large) {
+        padding-top: $mg-container;
+        padding-bottom: $mg-container;
+        text-align: left;
+    }
 }
 
 .content {
     display: flex;
-    align-items: stretch;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include media-query(large) {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 2rem;
+    }
+
     &_picture {
         object-fit: contain;
-        border-radius: 5%;
-        width: 23rem;
+        border-radius: 1rem;
+        width: 20rem;
         overflow: hidden;
-        aspect-ratio: 1/1.3;
+        aspect-ratio: 1/1.2;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @include media-query(large) {
+            aspect-ratio: 1/1.3;
+            width: 23rem;
+        }
         & img {
             height: 100%;
         }
@@ -27,17 +45,34 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         gap: 1rem;
-        width: 40rem;
+        width: 100%;
+        @include media-query(large) {
+            width: 40rem;
+            align-items: flex-start;
+        }
         & h1 {
-            font-size: 5rem;
             font-weight: 700;
             line-height: 100%;
+            font-size: 3rem;
+            @include media-query(large) {
+                font-size: 8rem;
+            }
         }
         & p {
-            font-size: $text-size;
+            font-size: $text-size-sm;
+            margin-bottom: 3rem;
             & span {
-                font-size: 3rem;
+                font-size: 1.7rem;
+            }
+
+            @include media-query(large) {
+                margin-bottom: 1rem;
+                font-size: $text-size;
+                & span {
+                    font-size: 3rem;
+                }
             }
         }
     }
@@ -45,20 +80,43 @@
 
 .skills {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3rem;
+
+    @include media-query(large) {
+        flex-direction: row;
+    }
     & p {
         font-size: $text-size;
         font-weight: 600;
         padding: 1rem 2rem;
-        border-right: 0.3rem solid black;
+        border-bottom: 0.3rem solid black;
+        border-right: none;
+        @include media-query(large) {
+            border-bottom: none;
+            border-right: 0.3rem solid black;
+        }
     }
     & div {
         & ul {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
             gap: 2rem;
             list-style-type: none;
+            & li img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.09);
+                border-radius: 50%;
+                height: 6rem;
+                padding: 1rem;
+            }
         }
     }
 }
@@ -70,11 +128,15 @@
         justify-content: flex-start;
         gap: 2rem;
         & .social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: black;
-            padding: 1.1rem;
-            border-radius: 100%;
+            box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.09);
+            border-radius: 50%;
             & img {
-                height: 2.5rem;
+                height: 6rem;
+                padding: 1rem;
             }
         }
     }

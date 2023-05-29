@@ -14,15 +14,24 @@
     }
     & .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: left;
         flex-wrap: wrap;
-        height: 70rem;
+        height: 100%;
         gap: 3rem;
+
+        @include media-query(large) {
+            flex-direction: column;
+            height: 70rem;
+        }
         & .exp {
-            flex: 1 1;
-            width: 50%;
+            flex: auto;
+            width: 100%;
+            @include media-query(large) {
+                flex: 1 1;
+                width: 50%;
+            }
             &_title {
                 color: $sub-title-color;
                 line-height: 1.4;

@@ -3,46 +3,65 @@
     align-items: stretch;
     justify-content: center;
     gap: 1rem;
-    padding-top: $mg-container;
-    padding-bottom: $mg-container;
+    flex-direction: column;
+    padding-top: $mg-container-sm;
+    padding-bottom: $mg-container-sm;
+    text-align: center;
+    @include media-query(large) {
+        flex-direction: row;
+        padding-top: $mg-container;
+        padding-bottom: $mg-container;
+        text-align: left;
+    }
 }
 
 .about {
     &_picture {
         object-fit: contain;
         border-radius: 3%;
-        height: 35rem;
-        width: 35rem;
         overflow: hidden;
-        aspect-ratio: 1/1;
+        height: 20rem;
+        aspect-ratio: 2/1;
         display: flex;
         justify-content: center;
         align-items: center;
+        @include media-query(large) {
+            height: 35rem;
+            aspect-ratio: 1/1;
+        }
+
         & img {
-            height: 100%;
+            width: 35rem;
         }
     }
     &_container {
-        width: 70rem;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: left;
         font-size: $text-size;
+        @include media-query(large) {
+            width: 70rem;
+        }
+
         & .title {
-            font-weight: 700;
+            font-weight: 600;
             margin-bottom: 1rem;
             text-transform: uppercase;
         }
         & .subtitle {
             font-size: $headings-size;
             line-height: 1.4;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 2rem;
         }
         & .text {
-            font-size: $text-size;
+            font-size: $text-size-sm;
             line-height: 1.4;
+            @include media-query(large) {
+            }
+            font-size: $text-size;
         }
     }
 }
