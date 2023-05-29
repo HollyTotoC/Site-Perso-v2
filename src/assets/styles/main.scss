@@ -1,6 +1,8 @@
 //Base
 @use "./base/colors" as *;
 @use "./base/typo" as *;
+@use "./base/mixins" as *;
+@use "./base/variables" as *;
 
 //Components
 @import "./components/header";

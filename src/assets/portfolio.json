@@ -106,6 +106,6 @@
         "client": "Openclassroom",
         "tags": ["HTML", "SCSS", "front", "SEO"],
         "cat": "Web",
-        "scrollY": "-64s%"
+        "scrollY": "-64%"
     }
 ]
