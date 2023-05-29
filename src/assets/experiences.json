@@ -1,0 +1,32 @@
+[
+    {
+        "years":"2023",
+        "part1":"Actuellement, je m'épanouis dans le monde du freelance, renforçant et élargissant mes compétences en développement web. En tant que développeur indépendant, j'applique les fondamentaux de la programmation web et de la conception de sites,",
+        "part2":"acquises lors de ma formation, en créant des solutions personnalisées pour mes clients. Je code des sites web en HTML, CSS, et JavaScript, et j'utilise des frameworks tels que React et Node.js pour créer des applications web dynamiques. Cette expérience en freelance me permet de me confronter à de nouveaux défis, d'approfondir ma connaissance des technologies actuelles et d'en découvrir de nouvelles."
+    },
+    {
+        "years":"2022",
+        "part1":"Formation en ligne de développement web couvrant lesfondamentaux de la programmation web et de la conception de sites web. Au cours de la formation, ",
+        "part2":"j'ai appris à coder des sites web en HTML, CSS et JavaScript, ainsi qu'à utiliser des frameworks tels que React et Node.js pour créer des applications web dynamiques."
+    },
+    {
+        "years":"2022",
+        "part1":"Alternance en entreprise de développement web où j'ai pu acquérir une expérience professionnelle en utilisant les compétences acquises lors de ma formation. J'ai travaillé sur des projets concrets, ",
+        "part2":"en collaboration avec d'autres développeurs, pour créer des applications web robustes et performantes."
+    },
+    {
+        "years":"2020 - 2023",
+        "part1":"En tant que consultant en communication digitale, j'ai aidé mes clients à développer leur présence en ligne et à atteindre leur public cible. J'ai travaillé avec eux pour élaborer des stratégies de marketing",
+        "part2":"numérique, des plans de contenu et des campagnes publicitaires. J'ai également supervisé la création de contenu web et vidéo pour m'assurer qu'il était cohérent avec leur marque et leurs objectifs."
+    },
+    {
+        "years":"2013 - 2022",
+        "part1":"'ai utilisé mes compétences en motion design et en montage pour aider mes clients à créer des vidéos qui communiquent efficacement leur message. J'ai travaillé sur une variété de projets,",
+        "part2":"allant des publicités aux vidéos promotionnelles en passant par les animations 2D et 3D. J'ai géré le processus de création de la conception à la livraison finale."
+    },
+    {
+        "years":"2010 - 2022",
+        "part1":"En tant que réalisateur et vidéaste indépendant, j'ai géré des projets de A à Z, de la prise de contact avec le client à la livraison finale. J'ai travaillé sur",
+        "part2":"une variété de projets allant des vidéos d'entreprise aux courts métrages en passant par les documentaires. J'ai géré le tournage, le montage, la post-production et la diffusion des projets."
+    }
+]
