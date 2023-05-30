@@ -41,7 +41,7 @@ function ProjectBox({ project }: ProjectProps) {
                 </a>
             </div>
             <div className="projectbox_container">
-                <h3 className="title">{project.title}</h3>
+                <h4 className="title">{project.title}</h4>
                 <p className="text">{project.desc}</p>
                 <div className="buttons">
                     <a

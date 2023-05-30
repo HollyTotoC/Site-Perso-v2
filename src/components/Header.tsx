@@ -59,12 +59,12 @@ function Header() {
                 </nav>
 
                 {/* MOBILE NAV */}
-                <div className={`mobile-nav ${menu ? "open" : "close"}`}>
+                <div className={`menu-mobile ${menu ? "open" : "close"}`}>
                     <span onClick={() => menuDisplay()}>
                         <img src={menuClose} alt="" />
                     </span>
 
-                    <ul className="menu">
+                    <ul className="menu-mobile-nav">
                         <li onClick={() => menuDisplay()}>
                             <a href="#home" aria-label="">
                                 Accueil

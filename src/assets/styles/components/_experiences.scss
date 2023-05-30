@@ -4,34 +4,41 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    font-size: $text-size;
-    padding-top: $mg-container;
-    padding-bottom: $mg-container;
-    & .title {
-        font-weight: 700;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
+    font-size: $text-size_sm;
+    padding-top: $mg-container-sm;
+    padding-bottom: $mg-container-sm;
+    @include media-query(large) {
+        font-size: $text-size;
+        padding-top: $mg-container;
+        padding-bottom: $mg-container;
+        text-align: left;
     }
+
+    & .title {
+        @include title;
+    }
+
     & .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: left;
-        flex-wrap: wrap;
-        height: 100%;
+        align-items: center;
         gap: 3rem;
 
         @include media-query(large) {
-            flex-direction: column;
-            height: 70rem;
-        }
-        & .exp {
-            flex: auto;
-            width: 100%;
-            @include media-query(large) {
-                flex: 1 1;
-                width: 50%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            & > div {
+                width: 45%;
             }
+        }
+
+        & .exp {
+            width: 100%;
+            cursor: pointer;
+
             &_title {
                 color: $sub-title-color;
                 line-height: 1.4;

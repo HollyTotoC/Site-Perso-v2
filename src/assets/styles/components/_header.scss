@@ -44,12 +44,13 @@ header {
         }
     }
 
-    & .mobile-nav {
+    & .menu-mobile {
         position: fixed;
         top: 0;
         background-color: #fff;
         width: 100%;
         height: 100vh;
+        display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -68,26 +69,22 @@ header {
             }
         }
 
-        & ul {
+        &-nav {
             display: flex;
             flex-direction: column;
-            font-size: 2.3rem;
+            font-size: 2rem;
             gap: 4rem;
             list-style: none;
-            &_li {
-                list-style-type: none;
-                color: #000;
-                font-weight: 500;
-            }
+            list-style-type: none;
+            color: #000;
+            font-weight: 700;
         }
 
         &.open {
             left: 0 !important;
-            border: 1px solid green;
         }
         &.close {
             left: -100% !important;
-            border: 1px solid red;
         }
 
         @include media-query(large) {

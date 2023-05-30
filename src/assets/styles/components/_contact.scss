@@ -3,9 +3,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: $text-size;
-    padding-top: $mg-container;
-    padding-bottom: $mg-container;
+    font-size: $text-size_sm;
+    padding-top: $mg-container-sm;
+    padding-bottom: $mg-container-sm;
+    @include media-query(large) {
+        font-size: $text-size;
+        padding-top: $mg-container;
+        padding-bottom: $mg-container;
+        text-align: left;
+    }
 }
 
 .contact {
@@ -14,9 +20,11 @@
         margin-bottom: 1rem;
         text-transform: uppercase;
     }
+    &_title {
+        @include title;
+    }
     &_subtitle {
-        color: $text-color;
-        font-size: $headings-size;
+        @include subtitle;
     }
     &_text {
         margin-bottom: 6rem;

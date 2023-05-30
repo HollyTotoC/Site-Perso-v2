@@ -1,12 +1,19 @@
 #footer {
     background-color: black;
-    color: white;
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: space-between;
     align-items: center;
-    font-size: $headings-size;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    font-size: $text-size-sm;
+    color: white !important;
+    font-weight: 700;
+    @include media-query(large) {
+        flex-direction: row;
+        font-size: $text-size;
+    }
 }
 
 .footer {
@@ -16,6 +23,9 @@
         justify-content: space-between;
         gap: 2rem;
         & .social {
+            & img {
+                height: 3rem;
+            }
         }
     }
 }

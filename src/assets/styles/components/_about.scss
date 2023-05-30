@@ -4,14 +4,17 @@
     justify-content: center;
     gap: 1rem;
     flex-direction: column;
+    font-size: $text-size-sm;
     padding-top: $mg-container-sm;
     padding-bottom: $mg-container-sm;
     text-align: center;
     @include media-query(large) {
+        font-size: $text-size;
         flex-direction: row;
         padding-top: $mg-container;
         padding-bottom: $mg-container;
         text-align: left;
+        align-items: flex-start;
     }
 }
 
@@ -40,28 +43,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: left;
-        font-size: $text-size;
         @include media-query(large) {
             width: 70rem;
         }
 
         & .title {
-            font-weight: 600;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
+            @include title;
         }
         & .subtitle {
-            font-size: $headings-size;
-            line-height: 1.4;
-            font-weight: 700;
-            margin-bottom: 2rem;
+            @include subtitle;
         }
         & .text {
-            font-size: $text-size-sm;
             line-height: 1.4;
-            @include media-query(large) {
-            }
-            font-size: $text-size;
         }
     }
 }

@@ -6,7 +6,7 @@
     padding-bottom: $mg-container-sm;
     text-align: center;
     @include media-query(large) {
-        padding-top: $mg-container;
+        padding-top: $mg-container - 5rem;
         padding-bottom: $mg-container;
         text-align: left;
     }
@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     @include media-query(large) {
+        justify-content: flex-start;
         flex-direction: row;
         align-items: stretch;
         gap: 2rem;

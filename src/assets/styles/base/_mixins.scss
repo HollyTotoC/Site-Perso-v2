@@ -1,4 +1,6 @@
 @use "./variables" as *;
+@use "./colors" as *;
+@use "./typo" as *;
 
 @mixin media-query($key) {
     $size: map-get($breakpoints, $key);
@@ -9,3 +11,17 @@
 
 // to use :
 // @include media-query(small) {}
+
+@mixin title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+@mixin subtitle {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    color: $black;
+    font-size: $headings-size;
+}
