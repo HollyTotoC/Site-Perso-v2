@@ -11,6 +11,7 @@
     font-size: $text-size-sm;
     text-align: center;
     @include media-query(medium) {
+        max-width: 80rem;
         font-size: $text-size;
     }
 
