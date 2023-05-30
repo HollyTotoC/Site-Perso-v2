@@ -5,7 +5,7 @@
     font-size: $text-size_sm;
     padding-top: $mg-container-sm;
     padding-bottom: $mg-container-sm;
-    @include media-query(large) {
+    @include media-query(medium) {
         font-size: $text-size;
         padding-top: $mg-container;
         padding-bottom: $mg-container;

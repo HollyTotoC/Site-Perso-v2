@@ -10,7 +10,7 @@
     font-size: $text-size-sm;
     color: white !important;
     font-weight: 700;
-    @include media-query(large) {
+    @include media-query(medium) {
         flex-direction: row;
         font-size: $text-size;
     }

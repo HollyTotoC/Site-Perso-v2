@@ -8,7 +8,7 @@
     padding-top: $mg-container-sm;
     padding-bottom: $mg-container-sm;
     text-align: center;
-    @include media-query(large) {
+    @include media-query(medium) {
         font-size: $text-size;
         flex-direction: row;
         padding-top: $mg-container;
@@ -28,7 +28,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @include media-query(large) {
+        @include media-query(medium) {
             height: 35rem;
             aspect-ratio: 1/1;
         }
@@ -43,7 +43,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: left;
-        @include media-query(large) {
+        @include media-query(medium) {
             width: 70rem;
         }
 

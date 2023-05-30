@@ -7,7 +7,7 @@
     font-size: $text-size_sm;
     padding-top: $mg-container-sm;
     padding-bottom: $mg-container-sm;
-    @include media-query(large) {
+    @include media-query(medium) {
         font-size: $text-size;
         padding-top: $mg-container;
         padding-bottom: $mg-container;
@@ -25,7 +25,7 @@
         align-items: center;
         gap: 3rem;
 
-        @include media-query(large) {
+        @include media-query(medium) {
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;

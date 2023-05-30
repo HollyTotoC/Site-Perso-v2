@@ -27,7 +27,7 @@ header {
         }
         & > li > a {
             display: none;
-            @include media-query(large) {
+            @include media-query(medium) {
                 display: block;
             }
         }
@@ -35,7 +35,7 @@ header {
 
     & .menu-button {
         display: block;
-        @include media-query(large) {
+        @include media-query(medium) {
             display: none;
             border: 1px solid black;
         }
@@ -87,7 +87,7 @@ header {
             left: -100% !important;
         }
 
-        @include media-query(large) {
+        @include media-query(medium) {
             display: none;
         }
     }

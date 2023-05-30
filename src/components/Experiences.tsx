@@ -51,7 +51,7 @@ function Experiences() {
         <section id="experiences">
             <h2 className="title">Experiences</h2>
             <div className="container">
-                {windowWidth >= 992 ? (
+                {windowWidth >= 768 ? (
                     <>
                         <div>{firstHalf.map(renderExperience)}</div>
                         <div>{secondHalf.map(renderExperience)}</div>
