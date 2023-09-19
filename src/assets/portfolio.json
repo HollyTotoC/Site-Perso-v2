@@ -1,4 +1,5 @@
-[    {
+[    
+    {
         "title": "Bioseine ⚕️",
         "desc": "Site front et back office pour laboratoire d'analyse médicale 2.0",
         "descfull": "Le projet Bioseine est un site front et back office pour laboratoire d'analyse médicale 2.0. Dans l'équipe de IMI, je suis intervenu sur la mise en page de certaines parties du site (booking et tuto) et développement de la partie prise de photo via smartphone.",
@@ -21,6 +22,54 @@
         ],
         "cat": "Web",
         "scrollY": "-62%"
+    },
+    {
+        "title": "Select-informatique 🧑‍💻",
+        "desc": "Site vitrine pour un développeur de solution informatique pour laboratoire d'analyse médicale",
+        "descfull": "Select-informatique m'a contacté pour développer leur site vitrine afin de mettre en avant leur nouveau SIL : iLab. Avec l’assistance d'une graphiste pour la partie design, j'ai développé leur nouveau site via Wordpress avec Elementor pur leur créer un thème personnalisé leur laissant la possibilité de faire évoluer leur nouvelle vitrine.",
+        "mainPicture": "/screenshot/select1.webp",
+        "pictures": [
+            "/screenshot/select1.webp",
+            "/screenshot/select2.webp",
+            "/screenshot/select3.webp"
+        ],
+        "link": "https://labo-bioseine.fr/",
+        "git": "https://github.com/nicolasdelourme/bioseineFront",
+        "client": "IMI Creative",
+        "tags": [
+            "Wordpress",
+            "Elementor Pro",
+            "JS",
+            "SCSS",
+            "Frontend",
+            "Backend"
+        ],
+        "cat": "Web",
+        "scrollY": "-55%"
+    },
+    {
+        "title": "Edition Jean de Portal 📕",
+        "desc": "Site front avec boutique, gestion d'abonement et back office pour une maison d'édition",
+        "descfull": "Le site des éditions Jean de Portal est un projet ambitieux qui regroupe de nombreuse fonctionnalités techniques : boutique, gestion de stock, gestion d’abonnement, microservices, micro-site rattaché,...",
+        "mainPicture": "/screenshot/jdp2.webp",
+        "pictures": [
+            "/screenshot/jdp1.webp",
+            "/screenshot/jdp2.webp"
+        ],
+        "link": "https://www.jeandeportal.fr/",
+        "git": "https://github.com/nicolasdelourme/jeandeportal",
+        "client": "IMI Creative",
+        "tags": [
+            "IMI Framework",
+            "JS",
+            "SCSS",
+            "PHP",
+            "Bootstrap",
+            "Frontend",
+            "Backend"
+        ],
+        "cat": "Web",
+        "scrollY": "-80%"
     },
     {
         "title": "Kasa 🏠🧑‍🎓",

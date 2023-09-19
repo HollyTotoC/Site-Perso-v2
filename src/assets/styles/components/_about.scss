@@ -31,6 +31,7 @@
         @include media-query(medium) {
             height: 35rem;
             aspect-ratio: 1/1;
+            margin-right: 2rem;
         }
 
         & img {

@@ -42,7 +42,7 @@
             width: 25rem;
             height: auto;
         }
-        @include media-query(lqrge) {
+        @include media-query(large) {
             width: 53rem;
             height: auto;
         }
@@ -54,7 +54,7 @@
             overflow-clip-margin: content-box;
             overflow: clip;
             height: auto;
-            width: 100%;
+            width: 25rem;
         }
     }
     &_container {
@@ -75,6 +75,9 @@
             @include media-query(medium) {
                 font-size: 3rem;
             }
+        }
+        & .text {
+            margin-bottom: 1rem;
         }
         & .buttons {
             display: flex;
@@ -108,12 +111,12 @@
     position: fixed;
     z-index: 120;
     border: none;
-    height: 100%;
     width: 100%;
     top: 50%;
     left: 50%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
     padding: 2rem;
+    overflow: auto;
 
     & .close {
         display: none;
@@ -176,11 +179,23 @@
                 font-weight: 700;
                 line-height: 100%;
                 font-size: 2.5rem;
+                text-align: center;
                 @include media-query(medium) {
+                    text-align: left;
                     font-size: 7rem;
                 }
-                & .client {
-                    font-style: italic;
+            }
+            & .client {
+                font-style: italic;
+                text-align: center;
+                @include media-query(medium) {
+                    text-align: left;
+                }
+            }
+            & .text {
+                text-align: center;
+                @include media-query(medium) {
+                    text-align: left;
                 }
             }
             & .buttons {
@@ -204,15 +219,17 @@
             }
 
             & .tags ul {
-                margin-bottom: 5rem;
+                margin-bottom: 2rem;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                flex-wrap: wrap;
                 align-items: center;
+                justify-content: center;
                 gap: 2rem;
                 list-style: none;
                 @include media-query(medium) {
-                    flex-wrap: wrap;
-                    flex-direction: row;
+                    margin-bottom: 5rem;
+                    justify-content: flex-start;
                     gap: 2rem;
                 }
                 & li {

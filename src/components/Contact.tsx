@@ -18,7 +18,7 @@ function Contact() {
                         <p>🗺️</p>
                     </div>
                     <div className="social_text">
-                        <h3>Remote from</h3>
+                        <h3>Remote or on site from</h3>
                         <p>Paris, France</p>
                     </div>
                 </div>
