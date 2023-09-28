@@ -6,7 +6,7 @@
     padding-bottom: $mg-container-sm;
     text-align: center;
     @include media-query(medium) {
-        padding-top: $mg-container - 5rem;
+        padding-top: $mg-container;
         padding-bottom: $mg-container;
         text-align: left;
     }

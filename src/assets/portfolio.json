@@ -72,6 +72,33 @@
         "scrollY": "-80%"
     },
     {
+        "title": "Weather App ⛅",
+        "desc": "Site météo réalisé avec Next.js, Typescript, Tailwind et la library ui-neumorphisme",
+        "descfull": "Ce site météo est une démonstration de mes compétences approfondies en développement web. Réalisé avec Next.js, il intègre la bibliothèque ui-neumorphism pour un design moderne et épuré. J'ai utilisé TailwindCSS pour un style personnalisé et réactif, garantissant une expérience utilisateur optimale sur tous les appareils. Côté frontend, j'ai mis en œuvre React pour créer des interfaces interactives et dynamiques. Sur le plan backend, j'ai développé des API robustes pour récupérer et traiter les données météorologiques. Ce projet est le reflet de ma passion pour le développement frontend et backend, et de mon engagement à créer des applications web performantes et esthétiquement plaisantes.",
+        "mainPicture": "/screenshot/meteo4.webp",
+        "pictures": [
+            "/screenshot/meteo1.webp",
+            "/screenshot/meteo2.webp",
+            "/screenshot/meteo3.webp",
+            "/screenshot/meteo4.webp",
+            "/screenshot/meteo5.webp"
+        ],
+        "link": "https://meteo-app-virid.vercel.app/",
+        "git": "https://github.com/HollyTotoC/meteo_app",
+        "client": "Projet personnel",
+        "tags": [
+            "Next.js",
+            "Typescript",
+            "Tailwind",
+            "ui-neumorphism",
+            "Axios",
+            "Frontend",
+            "Backend"
+        ],
+        "cat": "Web",
+        "scrollY": "-85%"
+    },
+    {
         "title": "Kasa 🏠🧑‍🎓",
         "desc": "Adaptaion d'une maquette en site web responsive React",
         "descfull": "Le projet Kasa est une application React développé dans le cadre de ma formation chez Openclassroom. Il s'agit d'une adaptation d'une maquette Figma en site web responsive. J'ai utilisé React et SCSS pour créer une application web qui fonctionne sur tous les appareils.",
