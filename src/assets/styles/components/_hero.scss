@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 10rem;
-    padding-top: $mg-container-sm;
+    padding-top: $mg-container-sm + 3rem;
     padding-bottom: $mg-container-sm;
     text-align: center;
     @include media-query(medium) {
         padding-top: $mg-container;
+        margin-top: 10rem;
         padding-bottom: $mg-container;
         text-align: left;
     }
