@@ -31,6 +31,11 @@ body {
     position: relative;
 }
 
+.image-gallery-thumbnails-container,
+.image-gallery-thumbnails-wrapper {
+    display: none !important;
+}
+
 #home,
 #hero,
 #about,
